@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
     car_in += 1
 })
 input.onButtonPressed(Button.AB, function () {
-    if (!(car_in == car_out)) {
+    if (car_in > car_out) {
         garage_out()
     }
 })
